@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    padding-top: 150px;
+    background-color: gray;
+}
+
+.calculator {
+    border: 2px solid gray;
+    max-width: 350px;
+    margin: auto;
+}
+
+.screen {
+    width: 100%;
+    padding: 15px 3px 10px;
+    min-height: 50px;
+    text-align: end;
+    background-color: white;
+    font-size: 25px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(211, 77, 20);
+    outline: none;
+    border: none;
+}
